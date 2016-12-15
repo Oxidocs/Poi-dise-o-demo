@@ -1,0 +1,51 @@
+page-home {
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+  }
+
+  .login{
+    background: #f53d3d;
+
+
+
+  }
+  .login_image{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login_image_img{
+    height: 100px;
+    width: 200px
+  }
+  .login_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+
+  }
+  .login_buttons-btn1{
+    height: 3.8em !important;
+    border-radius: 0;
+    background: #f5f5f5;
+    color: #f53d3d;
+    box-shadow: none;
+  }
+
+  .login_buttons-btn2{
+    height: 3.8em !important;
+    border-radius: 0;
+    background: #333;
+    color: #f5f5f5;
+    box-shadow: none;
+  }
+  .login_buttons_toolbar{
+    padding: 0 !important
+  }
+
+}
